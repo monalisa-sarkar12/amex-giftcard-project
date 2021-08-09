@@ -23,7 +23,7 @@ export default (state, action) => {
       });
       return {
         ...state,
-        users: updateCards,
+        cards: updateCards,
       };
 
     default:
